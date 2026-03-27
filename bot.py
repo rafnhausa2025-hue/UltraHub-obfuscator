@@ -9,7 +9,7 @@ from obfuscator import LuaObfuscator
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 TOKEN = "MTQ4NzEyMTkwNjgwODI2MjgyOQ.GdRT-F.s5CQZTlY8wPZBijno-Wz67Pg9o2GOeNFNZ-UA4"          # Token do bot
-WEBHOOK_URL = "https://discord.com/api/webhooks/1487115174132453386/o3sg4LPguDas8fqRSP6PL96OXKkneHOqKl13muq0CCQkoQNC7DQ9fajRznFxoL_8t7q1"  # URL do webhook para logs
+WEBHOOK_URL  "https://discord.com/api/webhooks/1487156040058273803/qkpXAv7Wn7NannrA0m1q00deI-bZVmrrfFA8LjcrTJUMZ2ijLezeJWNZhQ9SBu7EKlRS"  # URL do webhook para logs
 PREFIX = "!"
 
 # ─── BOT SETUP ────────────────────────────────────────────────────────────────
@@ -22,7 +22,7 @@ obf = LuaObfuscator()
 
 # ─── WEBHOOK LOGGER ───────────────────────────────────────────────────────────
 async def send_webhook_log(user, guild, level, stats):
-    if not WEBHOOK_URL or WEBHOOK_URL == "SEU_WEBHOOK_AQUI":
+    if not WEBHOOK_URL or WEBHOOK_URL == "https://discord.com/api/webhooks/1487156040058273803/qkpXAv7Wn7NannrA0m1q00deI-bZVmrrfFA8LjcrTJUMZ2ijLezeJWNZhQ9SBu7EKlRS":
         return
     nivel_emoji = {1: "🟢", 2: "🟡", 3: "🔴"}
     nivel_nome  = {1: "Leve", 2: "Médio", 3: "Máximo"}
