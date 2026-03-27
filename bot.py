@@ -8,7 +8,7 @@ import io
 from obfuscator import LuaObfuscator
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-TOKEN = "SEU_TOKEN_AQUI"          # Token do bot
+TOKEN = "MTQ4NzEyMTkwNjgwODI2MjgyOQ.GdRT-F.s5CQZTlY8wPZBijno-Wz67Pg9o2GOeNFNZ-UA4"          # Token do bot
 WEBHOOK_URL = "https://discord.com/api/webhooks/1487115174132453386/o3sg4LPguDas8fqRSP6PL96OXKkneHOqKl13muq0CCQkoQNC7DQ9fajRznFxoL_8t7q1"  # URL do webhook para logs
 PREFIX = "!"
 
